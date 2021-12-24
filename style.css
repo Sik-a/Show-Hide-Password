@@ -1,0 +1,31 @@
+.container
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-form
+{
+  width: 70%;
+  background-color: #87f6ff;
+  border-radius: 10px;
+}
+
+.input-style
+{
+  border: 0 !important;
+}
+
+form > div i
+{
+  cursor: pointer;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  background-color: #e9ecef;
+  padding: 17px;
+  border-radius: 0 5px 5px 0;
+  border-left: 1px solid #dfdfdf;
+}
